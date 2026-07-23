@@ -22,6 +22,12 @@ CODE_OF_CONDUCT.md             → default for all repos
 CONTRIBUTING.md                → default for all repos
 GOVERNANCE.md                  → how the org is run
 SECURITY.md                    → default vulnerability policy
+docs/AUTOMATION.md             → automated review & security stack (CodeRabbit, Dependabot, CodeQL, …)
 .github/PULL_REQUEST_TEMPLATE.md
 .github/ISSUE_TEMPLATE/config.yml
+.github/dependabot.yml
+.github/workflow-templates/    → CodeQL & Dependency Review starter workflows for org repos
 ```
+
+See [`docs/AUTOMATION.md`](docs/AUTOMATION.md) for the full automated review and
+supply-chain security setup, and the one-time org-owner steps.

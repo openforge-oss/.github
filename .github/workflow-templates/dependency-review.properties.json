@@ -1,0 +1,6 @@
+{
+  "name": "Dependency Review (OpenForge)",
+  "description": "Blocks PRs that add dependencies with known vulnerabilities or malicious-package advisories (GitHub Advisory Database) or disallowed licenses.",
+  "iconName": "package-dependencies",
+  "categories": ["Security"]
+}

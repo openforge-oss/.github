@@ -1,0 +1,6 @@
+{
+  "name": "CodeQL (OpenForge)",
+  "description": "SAST code scanning via GitHub CodeQL. Supports JS/TS, Python, Java/Kotlin, Go, C#, Ruby, Swift, C/C++, and Actions. (Dart is not supported by CodeQL.)",
+  "iconName": "shield-check",
+  "categories": ["Security"]
+}

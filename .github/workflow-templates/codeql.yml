@@ -1,0 +1,39 @@
+name: "CodeQL"
+
+on:
+  push:
+    branches: ["$default-branch"]
+  pull_request:
+    branches: ["$default-branch"]
+  schedule:
+    - cron: "0 6 * * 1"
+
+jobs:
+  analyze:
+    name: Analyze (${{ matrix.language }})
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      contents: read
+      actions: read
+    strategy:
+      fail-fast: false
+      matrix:
+        # Set to your repo's languages. CodeQL supports: c-cpp, csharp, go,
+        # java-kotlin, javascript-typescript, python, ruby, swift, and actions.
+        # NOTE: Dart is NOT supported by CodeQL — Dart repos should rely on
+        # `dart analyze` + custom_lint instead.
+        language: ["javascript-typescript", "actions"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          language: ${{ matrix.language }}
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
+      - name: Analyze
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:${{ matrix.language }}"
