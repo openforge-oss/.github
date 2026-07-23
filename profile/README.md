@@ -41,7 +41,7 @@ the forge.
 
 | Project | Ecosystem | What it does | Status |
 |---------|-----------|--------------|--------|
-| [**leak_sentinel**](https://github.com/FlutterForge-V1/leak_sentinel) | Flutter / Dart | A `custom_lint` plugin that finds disposal-based memory leaks and fixes them with one click. | 🌱 v0.1 |
+| [**leak_sentinel**](https://github.com/openforge-oss/leak_sentinel) | Flutter / Dart | A `custom_lint` plugin that finds disposal-based memory leaks and fixes them with one click. | 🌱 v0.1 |
 
 *More in the forge — for more frameworks. Have an idea? [Propose one.](#-get-involved)*
 
@@ -52,16 +52,16 @@ share it. From lowest to highest effort:
 
 - **Use the tools** and tell us what breaks. Every bug report sharpens a tool.
 - **Report a pain point** — in any framework. Open an issue on the relevant
-  repo, or start a [discussion](https://github.com/orgs/FlutterForge-V1/discussions)
+  repo, or start a [discussion](https://github.com/orgs/openforge-oss/discussions)
   if it doesn't have a home yet.
 - **Contribute a fix or a feature** — see each repo's `CONTRIBUTING.md`. Our
   tools are designed so a new rule/feature is usually only a few lines.
 - **Propose a new tool** — describe the pain and the tool you wish existed, for
   whatever framework. If it resonates, we'll incubate it together.
 
-New here? Read our [**Contributing guide**](https://github.com/FlutterForge-V1/.github/blob/main/CONTRIBUTING.md),
-[**Governance**](https://github.com/FlutterForge-V1/.github/blob/main/GOVERNANCE.md),
-and [**Code of Conduct**](https://github.com/FlutterForge-V1/.github/blob/main/CODE_OF_CONDUCT.md).
+New here? Read our [**Contributing guide**](https://github.com/openforge-oss/.github/blob/main/CONTRIBUTING.md),
+[**Governance**](https://github.com/openforge-oss/.github/blob/main/GOVERNANCE.md),
+and [**Code of Conduct**](https://github.com/openforge-oss/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## 💛 Our values
 

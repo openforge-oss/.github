@@ -3,7 +3,7 @@
 This is OpenForge's **community health** repository. It has two jobs:
 
 1. **`profile/README.md`** renders as the organization's public landing page at
-   <https://github.com/FlutterForge-V1>.
+   <https://github.com/openforge-oss>.
 2. The files at the root of this repo (`CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`,
    `SECURITY.md`, `GOVERNANCE.md`) and the templates in `.github/` act as
    **org-wide defaults**: any OpenForge repository that doesn't ship its own
@@ -11,7 +11,7 @@ This is OpenForge's **community health** repository. It has two jobs:
 
 Individual repositories may override any of these with their own versions when
 they need project-specific detail (for example,
-[`leak_sentinel`](https://github.com/FlutterForge-V1/leak_sentinel) ships its
+[`leak_sentinel`](https://github.com/openforge-oss/leak_sentinel) ships its
 own `CONTRIBUTING.md` with build steps).
 
 ## Layout

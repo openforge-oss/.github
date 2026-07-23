@@ -9,7 +9,7 @@ build and test steps, which takes precedence for that repo.
 
 - **Report a pain point.** The most valuable thing you can give us is a real
   problem. Open an issue on the relevant repo, or a
-  [discussion](https://github.com/orgs/FlutterForge-V1/discussions) if it has no
+  [discussion](https://github.com/orgs/openforge-oss/discussions) if it has no
   home yet.
 - **File a bug.** Use the repo's issue templates. A minimal reproduction is gold.
 - **Improve docs.** Typos, unclear steps, missing examples — all welcome.

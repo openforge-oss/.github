@@ -9,7 +9,7 @@ precedence for that repo.
 Please **do not** open a public issue for a suspected vulnerability.
 
 Use GitHub's **private vulnerability reporting** on the affected repository:
-`https://github.com/FlutterForge-V1/<repo>/security/advisories/new`
+`https://github.com/openforge-oss/<repo>/security/advisories/new`
 
 Include:
 

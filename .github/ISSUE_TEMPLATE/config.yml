@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: 💬 Discussions
-    url: https://github.com/orgs/FlutterForge-V1/discussions
+    url: https://github.com/orgs/openforge-oss/discussions
     about: Questions, ideas, and proposals for new tools go here.
   - name: 📖 Start here — org guide
-    url: https://github.com/FlutterForge-V1/.github/blob/main/CONTRIBUTING.md
+    url: https://github.com/openforge-oss/.github/blob/main/CONTRIBUTING.md
     about: How OpenForge works and how to get involved.
