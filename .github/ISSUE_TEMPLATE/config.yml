@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/orgs/FlutterForge-V1/discussions
+    about: Questions, ideas, and proposals for new tools go here.
+  - name: 📖 Start here — org guide
+    url: https://github.com/FlutterForge-V1/.github/blob/main/CONTRIBUTING.md
+    about: How FlutterForge works and how to get involved.
